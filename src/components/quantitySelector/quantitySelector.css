@@ -1,0 +1,26 @@
+.selector{
+    display: flex;
+    
+}
+p{
+    padding: 0px 18px;
+}
+
+.quantityIncrease{
+    border-radius: 0px 100px 100px 0px;
+    padding:       9px 13px;
+    box-shadow: none;
+    
+
+}
+
+.quantityDecrease{
+    border-radius: 100px 0px 0px 100px;
+    padding: 9px 13px;
+    box-shadow: none;
+    
+
+}
+
+
+  
