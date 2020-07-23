@@ -1,0 +1,29 @@
+.welcome{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url("images/bg.png");
+  animation-name: moveIn;
+  animation-duration: 4s;
+}
+
+.welcome > img {  
+  width: 30vw;
+  height: auto;
+  animation-name: moveIn;
+  animation-duration: 4s;
+}
+
+/* Animation by Jonas Imm  */
+@keyframes moveIn {
+  from {
+      width: 1vw;
+      opacity: 0.5;
+  }
+  to {
+   width: 30vw;
+   opacity: 1;
+}
+}
