@@ -3,5 +3,5 @@ import productList from "./productList.html";
 
 export default { title: "productList" };
 
-export const addToCart = () => productList;
+export const coffeeList = () => productList;
                         

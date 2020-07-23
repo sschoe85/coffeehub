@@ -1,0 +1,25 @@
+
+.productList{
+  list-style-type: none;
+  width: 100vw;
+  padding: 0;
+}
+
+.productList > li {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  
+  
+}
+
+.productList > li >img:first-child {
+  flex-basis: 90px;
+}
+.productList > li >img:last-child {
+  flex-basis: 20px;
+  flex-shrink: 0;
+}
+.productList > li > span{
+  flex-grow: 1;
+}
